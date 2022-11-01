@@ -24,7 +24,8 @@ torch==1.8.0
 torch-geometric==2.0.1
 ```
 
-These are the basic requirements for running the model of SGNN. 
+These are the basic requirements for running the model of SGNN.
+
 **Acknowledgment**: This repository is developed based on [Physion](https://github.com/htung0101/Physion-particles) and [RigidFall](https://github.com/YunzhuLi/VGPL-Dynamics-Prior). To run the experiments or conduct visualization on these datasets, more packages will be required. Please refer to [Physion](https://github.com/htung0101/Physion-particles) and [RigidFall](https://github.com/YunzhuLi/VGPL-Dynamics-Prior) for more details.
 
 ## Data Preparation

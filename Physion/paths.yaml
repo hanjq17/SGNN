@@ -1,0 +1,31 @@
+# FORMAT
+# hostname:
+#     username:
+#         training_data_dir: directory where you download your training hdf5 files
+#              |___ Dominoes
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ ...
+#              |___ Collide
+#              |___ Drop
+#              |___ ...
+#         testing_data_dir: directory where you download your training hdf5 files
+#              |___ Dominoes
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ pilot_ooo_xxx.hdf5
+#                      |__ ...
+#              |___ Collide
+#              |___ Drop
+#              |___ ...
+#         dpi_data_dir: directory where you plan to store the preprocessed data for DPI
+#         out_dir: directory for dumping model, log, and visualization
+
+
+training_data_dir: '/apdcephfs/share_1364275/jiaqihan/AIPhysics/Physion/training_data_dir'
+testing_data_dir: '/apdcephfs/share_1364275/jiaqihan/AIPhysics/Physion/testing_data_dir'
+dpi_data_dir: '/apdcephfs/share_1364275/jiaqihan/AIPhysics/Physion/dpi_data_dir'
+out_dir: '/apdcephfs/share_1364275/jiaqihan/AIPhysics/Physion/out_dir'

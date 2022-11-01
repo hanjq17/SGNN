@@ -28,11 +28,11 @@ These are the basic requirements for running the model of SGNN. To run the exper
 
 ## Data Preparation
 
-####Physion
+#### Physion
 
 We use the official code of [Physion](https://github.com/htung0101/Physion-particles) for the particle-based methods. This official repository contains the detailed guidance of how to retrieve and pre-process the Physion dataset into the desirable format for model training and evaluation.
 
-####RigidFall
+#### RigidFall
 
 We use the official code of [VGPL](https://github.com/YunzhuLi/VGPL-Dynamics-Prior), which includes instructions of downloading RigidFall and leveraging the data to train and test the model.
 
